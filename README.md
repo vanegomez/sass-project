@@ -8,5 +8,5 @@ sass scss/main.scss css/main.css
 
 To watch the changes made in scss folder and compile automatically, sass --watch input-folder:output-folder run in terminal:
 ```
-  sass --watch scss/main.scc:css/main.css
+  sass --watch scss/main.scss:css/main.css
 ```
