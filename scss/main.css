@@ -1,43 +1,46 @@
-/*
-Error: Invalid CSS after "...ude fancy-links": expected selector or at-rule, was "body {"
-        on line 33 of main.scss
+a {
+  font-style: italic;
+  text-decoration: none; }
 
-28:   }
-29: }
-30: 
-31: @include fancy-links
-32: 
-33: body {
-34:   font-family: $text-font;
-35:   color: $text-color;
-36: }
-37: 
-38: h1, h2, h3, h4 {
+body {
+  font-family: Verdana, Arial, sans-serif;
+  color: #222222; }
 
-Backtrace:
-main.scss:33
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/gems/sass-3.4.23/lib/sass/scss/parser.rb:42:in `parse'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/gems/sass-3.4.23/lib/sass/plugin.rb:82:in `update_stylesheets'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/gems/sass-3.4.23/bin/scss:13:in `<top (required)>'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/bin/scss:23:in `load'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/bin/scss:23:in `<main>'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/bin/ruby_executable_hooks:15:in `eval'
-/Users/vanessagomez/.rvm/gems/ruby-2.2.3/bin/ruby_executable_hooks:15:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...ude fancy-links\": expected selector or at-rule, was \"body {\"\A         on line 33 of main.scss\A \A 28:   }\A 29: }\A 30: \A 31: @include fancy-links\A 32: \A 33: body {\A 34:   font-family: $text-font;\A 35:   color: $text-color;\A 36: }\A 37: \A 38: h1, h2, h3, h4 {"; }
+h1, h2, h3, h4 {
+  font-family: "Palatino Linotype", Georgia, serif; }
+
+h2 {
+  font-size: 22px;
+  font-weight: bold; }
+
+p {
+  font-family: Verdana, Arial, sans-serif; }
+
+a {
+  COLOR: #f27731; }
+
+.warning-button {
+  background-color: orange;
+  color: #fff;
+  padding: 8px 12px; }
+
+#header {
+  border-radius: 6px;
+  border: 1px solid #333;
+  height: 60px;
+  background-color: #170a48; }
+  #header #main-menu li {
+    display: inline; }
+  #header #main-menu a {
+    color: white; }
+
+#main {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#footer {
+  height: 90px;
+  background-color: #ccf962; }
+
+/*# sourceMappingURL=main.css.map */
