@@ -13,10 +13,12 @@
   }
 }
 
+$col: col-width($columns: 8);
+
 body {
   font-family: $text-font;
-  color: $text-color;
   font-size: em(18px);
+  color: $text-color;
 
   @include large-screens {
     font-size: 125%;
@@ -36,7 +38,8 @@ p {
 }
 
 a {
-  COLOR: $link-color;
+  color: $link-color;
+
   &:hover {
     color: darken($link-color, 15%);
   }
@@ -54,9 +57,11 @@ a {
   background-color: $theme-color;
 
   #main-menu {
+
     li {
       display: inline;
     }
+
     a {
       color: $menu-item-color;
       padding: 6px 8px;
@@ -69,8 +74,9 @@ a {
       }
     }
   }
-  
+
   #logo {
+
   }
 }
 
@@ -94,7 +100,7 @@ a {
 
     li {
       list-style-type: none;
-      padding: em(16px) em(20px);
+      padding: 16px 20px;
       border-bottom: 1px dashed #999;
 
       &:hover {
@@ -105,6 +111,7 @@ a {
 }
 
 #footer {
+  clear: both;
   height: $footer-height;
   background-color: $ternary-color;
 }
